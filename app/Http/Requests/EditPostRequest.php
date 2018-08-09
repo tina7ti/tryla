@@ -24,7 +24,7 @@ class EditPostRequest extends FormRequest
     public function rules()
     {
         return [
-            'title' => 'required|min:5',
+            'title' => 'required|min:5|aaaa',
             'content' => 'required|min:10'
         ];
     }
