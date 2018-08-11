@@ -15,7 +15,7 @@ class ValidatorServiceProvider extends ServiceProvider{
             var_dump($value);
             var_dump($parameters);
             die();*/
-            return $value == 'aaaa';
+            return $value != 'aaaa';
     });
 
     }

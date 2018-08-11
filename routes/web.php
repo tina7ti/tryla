@@ -58,3 +58,5 @@ Route::get('r/{link}',['as' => 'links.show','uses' => 'LinksController@show'])->
 
 
 Route::resource('news','PostsController');
+
+Route::get('contact',['as' => 'contact','uses' => 'PagesController@contact']);
